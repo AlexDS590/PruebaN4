@@ -1,0 +1,91 @@
+body{
+    background-color: gray !important;
+}
+/*Estilo del navbar*/
+.navbar{
+    background-color: black;
+}
+
+/*Estilo del footer*/
+
+.footer{
+    background-color: black;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.content-wrap {
+    flex: 1;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 76vh; /* Minimum height to cover full viewport */
+  }
+
+.body-footer{
+    display: flex;
+}
+
+.footer p{
+    margin-right: 40px;
+    color: white;
+}
+/*Estilo de imagen de la carta*/
+.img-estilo{
+    border-radius: 10px;
+}
+
+/*Estilo de la carta*/
+.card{
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card h5, h6, p{
+    color: white;
+}
+
+.info-card h4, h5, h6{
+    color: rgba(255, 255, 255, 0.715);
+}
+
+.info-card p{
+    color: white;
+}
+
+/*Estilo de botones*/
+.btn{
+    background-color: gray;
+    color: white;
+}
+
+.btn-logeo{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.btn:hover, .btn-logeo:hover{
+    background-color: rgb(69, 0, 0);
+    color: black;
+}
+
+/*Estilo login*/
+.link-inf{
+    text-decoration: none;
+    color: rgb(204, 255, 0);
+}
+
+.link-inf:hover{
+    color: red;
+}
+
+/*titulo de listado*/
+.titu-listado-de-heroes{
+    display: flex;
+    justify-content: center;
+}
+
